@@ -52,7 +52,12 @@
                 {
                     "type": "patch",
                     "path": "ftgl-relibtoolize-prep.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "ftgl-configure.patch"
                 }
+
             ]
         },
         "shared-modules/linux-audio/jack2.json",
