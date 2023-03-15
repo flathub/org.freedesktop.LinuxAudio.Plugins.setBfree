@@ -101,8 +101,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/pantherb/setBfree/archive/v0.8.11.tar.gz",
-                    "sha256": "3c2d78b96c76a0dc218b73fbf18c664a0f41380e284fc7557ef9eff19be15a1f"
+                    "url": "https://github.com/pantherb/setBfree/archive/v0.8.12.tar.gz",
+                    "sha256": "e317e78672103bcd41b880a95aa5f227266f9e9282e3076764d928906daa09a4"
                 },
                 {
                     "type": "patch",
