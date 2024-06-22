@@ -4,12 +4,23 @@
   <extends>org.freedesktop.LinuxAudio.BaseExtension</extends>
   <name>setBfree</name>
   <summary>setBfree DSP Tonewheel Organ emulator LV2</summary>
-  <url type="homepage">http://setbfree.org/</url>
+  <url type="homepage">https://setbfree.org/</url>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>hub_AT_figuiere.net</update_contact>
+  <developer_name>setBFree developers</developer_name>
   <releases>
-    <release date="2023-03-15" version="0.8.12" />
+    <release date="2024-06-10" version="0.8.13">
+      <description>
+        <p>UI support scaling</p>
+      </description>
+    </release>
+    <release date="2023-03-15" version="0.8.12">
+      <description>
+        <p>Fix upper manual key-split</p>
+        <p>Fix MIDNAM (pedal CC, PC)</p>
+      </description>
+    </release>
     <release date="2019-12-15" version="0.8.11" />
   </releases>
 </component>
