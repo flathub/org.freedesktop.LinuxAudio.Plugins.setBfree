@@ -1,9 +1,9 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.setBfree",
-    "branch": "23.08",
+    "branch": "24.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//23.08",
+    "sdk": "org.freedesktop.Sdk//24.08",
     "build-extension": true,
     "build-options": {
         "prepend-pkg-config-path": "/app/extensions/Plugins/setBfree/lib/pkgconfig",
@@ -25,7 +25,7 @@
             "rm-configure": true,
             "build-options": {
                 "cflags": "-fPIC -DPIC",
-                "cxxflags": "-fPIC -DPIC",
+                "cxxflags": "-fPIC -DPIC -fpermissive",
                 "env": {
                     "LDFLAGS": "-L/app/extensions/Plugins/setBfree/lib"
                 }
