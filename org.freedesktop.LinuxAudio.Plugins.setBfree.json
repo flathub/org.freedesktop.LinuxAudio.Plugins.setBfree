@@ -92,14 +92,13 @@
                 "make install"
             ],
             "post-install": [
-                "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.freedesktop.LinuxAudio.Plugins.setBfree.metainfo.xml",
-                "install -Dm644 -t $FLATPAK_DEST/share/licenses/setBfree COPYING"
+                "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo org.freedesktop.LinuxAudio.Plugins.setBfree.metainfo.xml"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/pantherb/setBfree/archive/v0.8.13.tar.gz",
-                    "sha256": "1765929dd1eb4a51975990749b58dabc0abba99bc0bdb72dcae60366e3f61f00"
+                    "url": "https://github.com/pantherb/setBfree/archive/v0.8.15.tar.gz",
+                    "sha256": "009cc24ffa53ef42d1060364268a28f659dd41d2515dd4cb7ab2a546a95a3603"
                 },
                 {
                     "type": "patch",

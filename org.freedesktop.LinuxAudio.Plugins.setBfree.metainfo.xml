@@ -8,8 +8,12 @@
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>hub_AT_figuiere.net</update_contact>
-  <developer_name>setBFree developers</developer_name>
+  <developer id="io.github.pantherb">
+    <name>setBFree developers</name>
+  </developer>
   <releases>
+    <release date="2026-05-04" version="0.8.15" />
+    <release date="2026-04-19" version="0.8.14" />
     <release date="2024-06-10" version="0.8.13">
       <description>
         <p>UI support scaling</p>
