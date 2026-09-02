@@ -12,6 +12,7 @@
     <name>setBFree developers</name>
   </developer>
   <releases>
+    <release date="2026-08-30" version="0.8.16" />
     <release date="2026-05-04" version="0.8.15" />
     <release date="2026-04-19" version="0.8.14" />
     <release date="2024-06-10" version="0.8.13">
